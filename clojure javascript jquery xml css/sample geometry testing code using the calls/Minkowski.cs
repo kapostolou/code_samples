@@ -19,13 +19,13 @@ namespace GELib
         public static Minkowski_Description Minkowskize_OBB_In_OBB(OBB obb1, OBB obb2)
         {
             var ret = new Minkowski_Description();
-            //var Ta
+            
             var tmp = obb1.Position - obb2.Position;
 
             var res = Vector3.Transform(tmp, obb2.TOrientation);
-            ret.Position_LM = res;
             var res2 = new Vector4();
-            var axisxinnewcords = Vector3.Transform(obb1.Axis(0), obb2.TOrientation);
+            
+			var axisxinnewcords = Vector3.Transform(obb1.Axis(0), obb2.TOrientation);
             var axisyinnewcords = Vector3.Transform(obb1.Axis(1), obb2.TOrientation);
 
             var xradius = obb1.HalfAxisWidth.X * Math.Abs(axisxinnewcords.X) + obb1.HalfAxisWidth.Y * Math.Abs(axisyinnewcords.X);
@@ -35,8 +35,9 @@ namespace GELib
             res2.X = xradius;
             res2.Y = yradius;
             res2.Z = 0;
-            ret.HalfAxis = res2;
-
+            
+			ret.HalfAxis = res2;
+			ret.Position_LM = res;
 
             return ret;
 
@@ -45,7 +46,7 @@ namespace GELib
         public static Minkowski_Description Minkowskize_Sphere_In_OBB(Sphere sph, OBB obb)
         {
             var ret = new Minkowski_Description();
-            //var Ta
+            
             ret.HalfAxis.X = sph.Radius;
             ret.Position_LM = obb.Point_W_To_L(sph.Position);
 
@@ -78,27 +79,7 @@ namespace GELib
             ret.Position_LM = obb.Position - trig.Bary_center;
             return ret;
 
-            //var ret = new Minkowski_Form_3();
-            ////var Ta
-            //var tmp = obb1.Position - obb2.Position;
-
-            //var res = Vector3.Transform(tmp, obb2.TOrientation);
-            //ret.Position = res;
-            //var res2 = new Vector3();
-            //var axisxinnewcords = Vector3.Transform(obb1.Axis(0), obb2.TOrientation);
-            //var axisyinnewcords = Vector3.Transform(obb1.Axis(1), obb2.TOrientation);
-
-            //var xradius = obb1.HalfAxisWidth.X * Math.Abs(axisxinnewcords.X) + obb1.HalfAxisWidth.Y * Math.Abs(axisyinnewcords.X);
-            //var yradius = obb1.HalfAxisWidth.X * Math.Abs(axisxinnewcords.Y) + obb1.HalfAxisWidth.Y * Math.Abs(axisyinnewcords.Y);
-
-
-            //res2.X = xradius;
-            //res2.Y = yradius;
-            //res2.Z = 0;
-            //ret.HalfAxis = res2;
-
-
-            //return ret;
+            
 
         }
     }

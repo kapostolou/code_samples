@@ -41,7 +41,7 @@ namespace GELib.Loading
         public static void Initialize()
         {
             XmlDocument doc = new XmlDocument();
-            var file_name = @"C:\game-scripts\" + "few"+ ".xml";
+            var file_name = @"C:\game-scripts\" + "clojure-generated-calls"+ ".xml";
             doc.Load(file_name);
             var root = doc.ChildNodes[0];
             var total = (int) Math.Sqrt(root.ChildNodes.Count);
@@ -110,6 +110,8 @@ namespace GELib.Loading
             if (name == "Nothing" || name == "NOTHING") return null;
             else
             {
+			
+				//The wrappers will be refactored, they're still there to interface with an older system
                 var ret = Geometry.GF_Wrappers.Get_Func("Coarse", name);
                 return ret;
             }
