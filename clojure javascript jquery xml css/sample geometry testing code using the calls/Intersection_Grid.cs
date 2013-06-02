@@ -50,9 +50,9 @@ namespace GELib
 
             grids = new Spatial_Hash_Grid[grid_info.groups];
 
-            for (int u = 0; u < grid_info.groups; u++)//
-
+            for (int u = 0; u < grid_info.groups; u++)
                 grids[u] = new Spatial_Hash_Grid();
+				
             neutral = grids[(int)Col_Slot.Neutral];
             player = grids[(int)Col_Slot.Player];
 
