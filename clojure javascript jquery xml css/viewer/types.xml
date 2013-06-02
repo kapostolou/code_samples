@@ -1,0 +1,86 @@
+<Commands>
+<Object_>
+<name value='Enemy'/>
+<rigid value='OBB'/>
+<coarse value='Sphere'/>
+<side value='Enemy'/>
+<i value='0'/>
+</Object_>
+<Object_>
+<name value='Player'/>
+<rigid value='OBB'/>
+<coarse value='Sphere'/>
+<side value='Player'/>
+<i value='1'/>
+</Object_>
+<Object_>
+<name value='Obstacle'/>
+<rigid value='OBB'/>
+<coarse value='Side'/>
+<side value='Neutral'/>
+<i value='2'/>
+</Object_>
+<Object_>
+<name value='RObstacle'/>
+<rigid value='OBB'/>
+<coarse value='Sphere'/>
+<side value='Neutral'/>
+<i value='3'/>
+</Object_>
+<Object_>
+<name value='Bullet'/>
+<rigid value='OBB'/>
+<coarse value='Sphere'/>
+<side value='Player'/>
+<i value='4'/>
+</Object_>
+<Object_>
+<name value='Pusher'/>
+<rigid value='OBB'/>
+<coarse value='Sphere'/>
+<side value='Neutral'/>
+<i value='5'/>
+</Object_>
+<Object_>
+<name value='Circle'/>
+<rigid value='Sphere'/>
+<coarse value='Sphere'/>
+<side value='N/A'/>
+<i value='6'/>
+</Object_>
+<Object_>
+<name value='CircleEn'/>
+<rigid value='Sphere'/>
+<coarse value='Sphere'/>
+<side value='Enemy'/>
+<i value='7'/>
+</Object_>
+<Object_>
+<name value='Teleporter'/>
+<rigid value='OBB'/>
+<coarse value='Sphere'/>
+<side value='Neutral'/>
+<i value='8'/>
+</Object_>
+<Object_>
+<name value='Chain'/>
+<rigid value='OBB'/>
+<coarse value='Sphere'/>
+<side value='Neutral'/>
+<i value='9'/>
+</Object_>
+<Object_>
+<name value='Triangle'/>
+<rigid value='Triangle'/>
+<coarse value='Sphere'/>
+<side value='Neutral'/>
+<i value='10'/>
+</Object_>
+<Object_>
+<name value='Spawn_Hit'/>
+<rigid value='N/A'/>
+<coarse value='Sphere'/>
+<side value='N/A'/>
+<i value='11'/>
+</Object_>
+</Commands>

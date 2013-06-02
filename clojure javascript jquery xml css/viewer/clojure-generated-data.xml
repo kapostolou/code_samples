@@ -1,0 +1,2594 @@
+<Commands>
+<F-Call>
+<type1 value='Enemy'/>
+<type2 value='Enemy'/>
+<code1 value='0'/>
+<code2 value='0'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Enemy'/>
+<type2 value='Player'/>
+<code1 value='0'/>
+<code2 value='1'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='true'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='OBBOBB'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Enemy'/>
+<type2 value='Obstacle'/>
+<code1 value='0'/>
+<code2 value='2'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='PlaneSphere'/>
+<reverse-coarse value='true'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='PlaneSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Enemy'/>
+<type2 value='RObstacle'/>
+<code1 value='0'/>
+<code2 value='3'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Enemy'/>
+<type2 value='Bullet'/>
+<code1 value='0'/>
+<code2 value='4'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='true'/>
+<test-i value='false'/>
+<ms-test value='true'/>
+<kill-first value='true'/>
+<kill-second value='true'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='MS-SPHERE'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Enemy'/>
+<type2 value='Pusher'/>
+<code1 value='0'/>
+<code2 value='5'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Enemy'/>
+<type2 value='Circle'/>
+<code1 value='0'/>
+<code2 value='6'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Enemy'/>
+<type2 value='CircleEn'/>
+<code1 value='0'/>
+<code2 value='7'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Enemy'/>
+<type2 value='Teleporter'/>
+<code1 value='0'/>
+<code2 value='8'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Enemy'/>
+<type2 value='Chain'/>
+<code1 value='0'/>
+<code2 value='9'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Enemy'/>
+<type2 value='Triangle'/>
+<code1 value='0'/>
+<code2 value='10'/>
+<rigid-test value='TriangleOBB'/>
+<reverse-rigid value='true'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='TriangleOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Enemy'/>
+<type2 value='Spawn_Hit'/>
+<code1 value='0'/>
+<code2 value='11'/>
+<rigid-test value='NOTHING'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Player'/>
+<type2 value='Enemy'/>
+<code1 value='1'/>
+<code2 value='0'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='true'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='OBBOBB'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Player'/>
+<type2 value='Player'/>
+<code1 value='1'/>
+<code2 value='1'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Player'/>
+<type2 value='Obstacle'/>
+<code1 value='1'/>
+<code2 value='2'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='PlaneSphere'/>
+<reverse-coarse value='true'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='PlaneSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Player'/>
+<type2 value='RObstacle'/>
+<code1 value='1'/>
+<code2 value='3'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Player'/>
+<type2 value='Bullet'/>
+<code1 value='1'/>
+<code2 value='4'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Player'/>
+<type2 value='Pusher'/>
+<code1 value='1'/>
+<code2 value='5'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='true'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='OBBOBB'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Player'/>
+<type2 value='Circle'/>
+<code1 value='1'/>
+<code2 value='6'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBSphere'/>
+</F-Call>
+<F-Call>
+<type1 value='Player'/>
+<type2 value='CircleEn'/>
+<code1 value='1'/>
+<code2 value='7'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='true'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='OBBSphere'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Player'/>
+<type2 value='Teleporter'/>
+<code1 value='1'/>
+<code2 value='8'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='true'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='OBBOBB'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Player'/>
+<type2 value='Chain'/>
+<code1 value='1'/>
+<code2 value='9'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Player'/>
+<type2 value='Triangle'/>
+<code1 value='1'/>
+<code2 value='10'/>
+<rigid-test value='TriangleOBB'/>
+<reverse-rigid value='true'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='TriangleOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Player'/>
+<type2 value='Spawn_Hit'/>
+<code1 value='1'/>
+<code2 value='11'/>
+<rigid-test value='NOTHING'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Obstacle'/>
+<type2 value='Enemy'/>
+<code1 value='2'/>
+<code2 value='0'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='PlaneSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='PlaneSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Obstacle'/>
+<type2 value='Player'/>
+<code1 value='2'/>
+<code2 value='1'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='PlaneSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='PlaneSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Obstacle'/>
+<type2 value='Obstacle'/>
+<code1 value='2'/>
+<code2 value='2'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='NOTHING'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Obstacle'/>
+<type2 value='RObstacle'/>
+<code1 value='2'/>
+<code2 value='3'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='PlaneSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='PlaneSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Obstacle'/>
+<type2 value='Bullet'/>
+<code1 value='2'/>
+<code2 value='4'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='PlaneSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='PlaneSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Obstacle'/>
+<type2 value='Pusher'/>
+<code1 value='2'/>
+<code2 value='5'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='PlaneSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Obstacle'/>
+<type2 value='Circle'/>
+<code1 value='2'/>
+<code2 value='6'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='false'/>
+<coarse-test value='PlaneSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='PlaneSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBSphere'/>
+</F-Call>
+<F-Call>
+<type1 value='Obstacle'/>
+<type2 value='CircleEn'/>
+<code1 value='2'/>
+<code2 value='7'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='false'/>
+<coarse-test value='PlaneSphere'/>
+<reverse-coarse value='false'/>
+<test value='true'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='PlaneSphere'/>
+<final-test value='OBBSphere'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Obstacle'/>
+<type2 value='Teleporter'/>
+<code1 value='2'/>
+<code2 value='8'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='PlaneSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Obstacle'/>
+<type2 value='Chain'/>
+<code1 value='2'/>
+<code2 value='9'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='PlaneSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='PlaneSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Obstacle'/>
+<type2 value='Triangle'/>
+<code1 value='2'/>
+<code2 value='10'/>
+<rigid-test value='TriangleOBB'/>
+<reverse-rigid value='true'/>
+<coarse-test value='PlaneSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='PlaneSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='TriangleOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Obstacle'/>
+<type2 value='Spawn_Hit'/>
+<code1 value='2'/>
+<code2 value='11'/>
+<rigid-test value='NOTHING'/>
+<reverse-rigid value='false'/>
+<coarse-test value='PlaneSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='RObstacle'/>
+<type2 value='Enemy'/>
+<code1 value='3'/>
+<code2 value='0'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='RObstacle'/>
+<type2 value='Player'/>
+<code1 value='3'/>
+<code2 value='1'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='RObstacle'/>
+<type2 value='Obstacle'/>
+<code1 value='3'/>
+<code2 value='2'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='PlaneSphere'/>
+<reverse-coarse value='true'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='PlaneSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='RObstacle'/>
+<type2 value='RObstacle'/>
+<code1 value='3'/>
+<code2 value='3'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='RObstacle'/>
+<type2 value='Bullet'/>
+<code1 value='3'/>
+<code2 value='4'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='RObstacle'/>
+<type2 value='Pusher'/>
+<code1 value='3'/>
+<code2 value='5'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='RObstacle'/>
+<type2 value='Circle'/>
+<code1 value='3'/>
+<code2 value='6'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBSphere'/>
+</F-Call>
+<F-Call>
+<type1 value='RObstacle'/>
+<type2 value='CircleEn'/>
+<code1 value='3'/>
+<code2 value='7'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='true'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='OBBSphere'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='RObstacle'/>
+<type2 value='Teleporter'/>
+<code1 value='3'/>
+<code2 value='8'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='RObstacle'/>
+<type2 value='Chain'/>
+<code1 value='3'/>
+<code2 value='9'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='RObstacle'/>
+<type2 value='Triangle'/>
+<code1 value='3'/>
+<code2 value='10'/>
+<rigid-test value='TriangleOBB'/>
+<reverse-rigid value='true'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='TriangleOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='RObstacle'/>
+<type2 value='Spawn_Hit'/>
+<code1 value='3'/>
+<code2 value='11'/>
+<rigid-test value='NOTHING'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Bullet'/>
+<type2 value='Enemy'/>
+<code1 value='4'/>
+<code2 value='0'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='true'/>
+<test-i value='false'/>
+<ms-test value='true'/>
+<kill-first value='true'/>
+<kill-second value='true'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='MS-SPHERE'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Bullet'/>
+<type2 value='Player'/>
+<code1 value='4'/>
+<code2 value='1'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Bullet'/>
+<type2 value='Obstacle'/>
+<code1 value='4'/>
+<code2 value='2'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='PlaneSphere'/>
+<reverse-coarse value='true'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='PlaneSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Bullet'/>
+<type2 value='RObstacle'/>
+<code1 value='4'/>
+<code2 value='3'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Bullet'/>
+<type2 value='Bullet'/>
+<code1 value='4'/>
+<code2 value='4'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Bullet'/>
+<type2 value='Pusher'/>
+<code1 value='4'/>
+<code2 value='5'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Bullet'/>
+<type2 value='Circle'/>
+<code1 value='4'/>
+<code2 value='6'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Bullet'/>
+<type2 value='CircleEn'/>
+<code1 value='4'/>
+<code2 value='7'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Bullet'/>
+<type2 value='Teleporter'/>
+<code1 value='4'/>
+<code2 value='8'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Bullet'/>
+<type2 value='Chain'/>
+<code1 value='4'/>
+<code2 value='9'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Bullet'/>
+<type2 value='Triangle'/>
+<code1 value='4'/>
+<code2 value='10'/>
+<rigid-test value='TriangleOBB'/>
+<reverse-rigid value='true'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='TriangleOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Bullet'/>
+<type2 value='Spawn_Hit'/>
+<code1 value='4'/>
+<code2 value='11'/>
+<rigid-test value='NOTHING'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Pusher'/>
+<type2 value='Enemy'/>
+<code1 value='5'/>
+<code2 value='0'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Pusher'/>
+<type2 value='Player'/>
+<code1 value='5'/>
+<code2 value='1'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='true'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='OBBOBB'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Pusher'/>
+<type2 value='Obstacle'/>
+<code1 value='5'/>
+<code2 value='2'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='PlaneSphere'/>
+<reverse-coarse value='true'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Pusher'/>
+<type2 value='RObstacle'/>
+<code1 value='5'/>
+<code2 value='3'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Pusher'/>
+<type2 value='Bullet'/>
+<code1 value='5'/>
+<code2 value='4'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Pusher'/>
+<type2 value='Pusher'/>
+<code1 value='5'/>
+<code2 value='5'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Pusher'/>
+<type2 value='Circle'/>
+<code1 value='5'/>
+<code2 value='6'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Pusher'/>
+<type2 value='CircleEn'/>
+<code1 value='5'/>
+<code2 value='7'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Pusher'/>
+<type2 value='Teleporter'/>
+<code1 value='5'/>
+<code2 value='8'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Pusher'/>
+<type2 value='Chain'/>
+<code1 value='5'/>
+<code2 value='9'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Pusher'/>
+<type2 value='Triangle'/>
+<code1 value='5'/>
+<code2 value='10'/>
+<rigid-test value='TriangleOBB'/>
+<reverse-rigid value='true'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Pusher'/>
+<type2 value='Spawn_Hit'/>
+<code1 value='5'/>
+<code2 value='11'/>
+<rigid-test value='NOTHING'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Circle'/>
+<type2 value='Enemy'/>
+<code1 value='6'/>
+<code2 value='0'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='true'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Circle'/>
+<type2 value='Player'/>
+<code1 value='6'/>
+<code2 value='1'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='true'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBSphere'/>
+</F-Call>
+<F-Call>
+<type1 value='Circle'/>
+<type2 value='Obstacle'/>
+<code1 value='6'/>
+<code2 value='2'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='true'/>
+<coarse-test value='PlaneSphere'/>
+<reverse-coarse value='true'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='PlaneSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBSphere'/>
+</F-Call>
+<F-Call>
+<type1 value='Circle'/>
+<type2 value='RObstacle'/>
+<code1 value='6'/>
+<code2 value='3'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='true'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBSphere'/>
+</F-Call>
+<F-Call>
+<type1 value='Circle'/>
+<type2 value='Bullet'/>
+<code1 value='6'/>
+<code2 value='4'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='true'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Circle'/>
+<type2 value='Pusher'/>
+<code1 value='6'/>
+<code2 value='5'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='true'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Circle'/>
+<type2 value='Circle'/>
+<code1 value='6'/>
+<code2 value='6'/>
+<rigid-test value='SphereSphere'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='SphereSphere'/>
+</F-Call>
+<F-Call>
+<type1 value='Circle'/>
+<type2 value='CircleEn'/>
+<code1 value='6'/>
+<code2 value='7'/>
+<rigid-test value='SphereSphere'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Circle'/>
+<type2 value='Teleporter'/>
+<code1 value='6'/>
+<code2 value='8'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='true'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Circle'/>
+<type2 value='Chain'/>
+<code1 value='6'/>
+<code2 value='9'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='true'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBSphere'/>
+</F-Call>
+<F-Call>
+<type1 value='Circle'/>
+<type2 value='Triangle'/>
+<code1 value='6'/>
+<code2 value='10'/>
+<rigid-test value='TriangleSphere'/>
+<reverse-rigid value='true'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='TriangleSphere'/>
+</F-Call>
+<F-Call>
+<type1 value='Circle'/>
+<type2 value='Spawn_Hit'/>
+<code1 value='6'/>
+<code2 value='11'/>
+<rigid-test value='NOTHING'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='CircleEn'/>
+<type2 value='Enemy'/>
+<code1 value='7'/>
+<code2 value='0'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='true'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='CircleEn'/>
+<type2 value='Player'/>
+<code1 value='7'/>
+<code2 value='1'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='true'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='true'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='OBBSphere'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='CircleEn'/>
+<type2 value='Obstacle'/>
+<code1 value='7'/>
+<code2 value='2'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='true'/>
+<coarse-test value='PlaneSphere'/>
+<reverse-coarse value='true'/>
+<test value='true'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='PlaneSphere'/>
+<final-test value='OBBSphere'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='CircleEn'/>
+<type2 value='RObstacle'/>
+<code1 value='7'/>
+<code2 value='3'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='true'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='true'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='OBBSphere'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='CircleEn'/>
+<type2 value='Bullet'/>
+<code1 value='7'/>
+<code2 value='4'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='true'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='CircleEn'/>
+<type2 value='Pusher'/>
+<code1 value='7'/>
+<code2 value='5'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='true'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='CircleEn'/>
+<type2 value='Circle'/>
+<code1 value='7'/>
+<code2 value='6'/>
+<rigid-test value='SphereSphere'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='CircleEn'/>
+<type2 value='CircleEn'/>
+<code1 value='7'/>
+<code2 value='7'/>
+<rigid-test value='SphereSphere'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='CircleEn'/>
+<type2 value='Teleporter'/>
+<code1 value='7'/>
+<code2 value='8'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='true'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='CircleEn'/>
+<type2 value='Chain'/>
+<code1 value='7'/>
+<code2 value='9'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='true'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='true'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='OBBSphere'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='CircleEn'/>
+<type2 value='Triangle'/>
+<code1 value='7'/>
+<code2 value='10'/>
+<rigid-test value='TriangleSphere'/>
+<reverse-rigid value='true'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='true'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='TriangleSphere'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='CircleEn'/>
+<type2 value='Spawn_Hit'/>
+<code1 value='7'/>
+<code2 value='11'/>
+<rigid-test value='NOTHING'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Teleporter'/>
+<type2 value='Enemy'/>
+<code1 value='8'/>
+<code2 value='0'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Teleporter'/>
+<type2 value='Player'/>
+<code1 value='8'/>
+<code2 value='1'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='true'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='OBBOBB'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Teleporter'/>
+<type2 value='Obstacle'/>
+<code1 value='8'/>
+<code2 value='2'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='PlaneSphere'/>
+<reverse-coarse value='true'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Teleporter'/>
+<type2 value='RObstacle'/>
+<code1 value='8'/>
+<code2 value='3'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Teleporter'/>
+<type2 value='Bullet'/>
+<code1 value='8'/>
+<code2 value='4'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Teleporter'/>
+<type2 value='Pusher'/>
+<code1 value='8'/>
+<code2 value='5'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Teleporter'/>
+<type2 value='Circle'/>
+<code1 value='8'/>
+<code2 value='6'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Teleporter'/>
+<type2 value='CircleEn'/>
+<code1 value='8'/>
+<code2 value='7'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Teleporter'/>
+<type2 value='Teleporter'/>
+<code1 value='8'/>
+<code2 value='8'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Teleporter'/>
+<type2 value='Chain'/>
+<code1 value='8'/>
+<code2 value='9'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Teleporter'/>
+<type2 value='Triangle'/>
+<code1 value='8'/>
+<code2 value='10'/>
+<rigid-test value='TriangleOBB'/>
+<reverse-rigid value='true'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Teleporter'/>
+<type2 value='Spawn_Hit'/>
+<code1 value='8'/>
+<code2 value='11'/>
+<rigid-test value='NOTHING'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Chain'/>
+<type2 value='Enemy'/>
+<code1 value='9'/>
+<code2 value='0'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Chain'/>
+<type2 value='Player'/>
+<code1 value='9'/>
+<code2 value='1'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Chain'/>
+<type2 value='Obstacle'/>
+<code1 value='9'/>
+<code2 value='2'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='PlaneSphere'/>
+<reverse-coarse value='true'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='PlaneSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Chain'/>
+<type2 value='RObstacle'/>
+<code1 value='9'/>
+<code2 value='3'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Chain'/>
+<type2 value='Bullet'/>
+<code1 value='9'/>
+<code2 value='4'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Chain'/>
+<type2 value='Pusher'/>
+<code1 value='9'/>
+<code2 value='5'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Chain'/>
+<type2 value='Circle'/>
+<code1 value='9'/>
+<code2 value='6'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBSphere'/>
+</F-Call>
+<F-Call>
+<type1 value='Chain'/>
+<type2 value='CircleEn'/>
+<code1 value='9'/>
+<code2 value='7'/>
+<rigid-test value='OBBSphere'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='true'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='OBBSphere'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Chain'/>
+<type2 value='Teleporter'/>
+<code1 value='9'/>
+<code2 value='8'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Chain'/>
+<type2 value='Chain'/>
+<code1 value='9'/>
+<code2 value='9'/>
+<rigid-test value='OBBOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='OBBOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Chain'/>
+<type2 value='Triangle'/>
+<code1 value='9'/>
+<code2 value='10'/>
+<rigid-test value='TriangleOBB'/>
+<reverse-rigid value='true'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='TriangleOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Chain'/>
+<type2 value='Spawn_Hit'/>
+<code1 value='9'/>
+<code2 value='11'/>
+<rigid-test value='NOTHING'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Triangle'/>
+<type2 value='Enemy'/>
+<code1 value='10'/>
+<code2 value='0'/>
+<rigid-test value='TriangleOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='TriangleOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Triangle'/>
+<type2 value='Player'/>
+<code1 value='10'/>
+<code2 value='1'/>
+<rigid-test value='TriangleOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='TriangleOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Triangle'/>
+<type2 value='Obstacle'/>
+<code1 value='10'/>
+<code2 value='2'/>
+<rigid-test value='TriangleOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='PlaneSphere'/>
+<reverse-coarse value='true'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='PlaneSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='TriangleOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Triangle'/>
+<type2 value='RObstacle'/>
+<code1 value='10'/>
+<code2 value='3'/>
+<rigid-test value='TriangleOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='TriangleOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Triangle'/>
+<type2 value='Bullet'/>
+<code1 value='10'/>
+<code2 value='4'/>
+<rigid-test value='TriangleOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='TriangleOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Triangle'/>
+<type2 value='Pusher'/>
+<code1 value='10'/>
+<code2 value='5'/>
+<rigid-test value='TriangleOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Triangle'/>
+<type2 value='Circle'/>
+<code1 value='10'/>
+<code2 value='6'/>
+<rigid-test value='TriangleSphere'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='TriangleSphere'/>
+</F-Call>
+<F-Call>
+<type1 value='Triangle'/>
+<type2 value='CircleEn'/>
+<code1 value='10'/>
+<code2 value='7'/>
+<rigid-test value='TriangleSphere'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='true'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='TriangleSphere'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Triangle'/>
+<type2 value='Teleporter'/>
+<code1 value='10'/>
+<code2 value='8'/>
+<rigid-test value='TriangleOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Triangle'/>
+<type2 value='Chain'/>
+<code1 value='10'/>
+<code2 value='9'/>
+<rigid-test value='TriangleOBB'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='TriangleOBB'/>
+</F-Call>
+<F-Call>
+<type1 value='Triangle'/>
+<type2 value='Triangle'/>
+<code1 value='10'/>
+<code2 value='10'/>
+<rigid-test value='NOTHING'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='true'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='SphereSphere'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Triangle'/>
+<type2 value='Spawn_Hit'/>
+<code1 value='10'/>
+<code2 value='11'/>
+<rigid-test value='NOTHING'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Spawn_Hit'/>
+<type2 value='Enemy'/>
+<code1 value='11'/>
+<code2 value='0'/>
+<rigid-test value='NOTHING'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Spawn_Hit'/>
+<type2 value='Player'/>
+<code1 value='11'/>
+<code2 value='1'/>
+<rigid-test value='NOTHING'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Spawn_Hit'/>
+<type2 value='Obstacle'/>
+<code1 value='11'/>
+<code2 value='2'/>
+<rigid-test value='NOTHING'/>
+<reverse-rigid value='false'/>
+<coarse-test value='PlaneSphere'/>
+<reverse-coarse value='true'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Spawn_Hit'/>
+<type2 value='RObstacle'/>
+<code1 value='11'/>
+<code2 value='3'/>
+<rigid-test value='NOTHING'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Spawn_Hit'/>
+<type2 value='Bullet'/>
+<code1 value='11'/>
+<code2 value='4'/>
+<rigid-test value='NOTHING'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Spawn_Hit'/>
+<type2 value='Pusher'/>
+<code1 value='11'/>
+<code2 value='5'/>
+<rigid-test value='NOTHING'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Spawn_Hit'/>
+<type2 value='Circle'/>
+<code1 value='11'/>
+<code2 value='6'/>
+<rigid-test value='NOTHING'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Spawn_Hit'/>
+<type2 value='CircleEn'/>
+<code1 value='11'/>
+<code2 value='7'/>
+<rigid-test value='NOTHING'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Spawn_Hit'/>
+<type2 value='Teleporter'/>
+<code1 value='11'/>
+<code2 value='8'/>
+<rigid-test value='NOTHING'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Spawn_Hit'/>
+<type2 value='Chain'/>
+<code1 value='11'/>
+<code2 value='9'/>
+<rigid-test value='NOTHING'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Spawn_Hit'/>
+<type2 value='Triangle'/>
+<code1 value='11'/>
+<code2 value='10'/>
+<rigid-test value='NOTHING'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+<F-Call>
+<type1 value='Spawn_Hit'/>
+<type2 value='Spawn_Hit'/>
+<code1 value='11'/>
+<code2 value='11'/>
+<rigid-test value='NOTHING'/>
+<reverse-rigid value='false'/>
+<coarse-test value='SphereSphere'/>
+<reverse-coarse value='false'/>
+<test value='false'/>
+<test-i value='false'/>
+<ms-test value='false'/>
+<kill-first value='false'/>
+<kill-second value='false'/>
+<final-coarse value='NOTHING'/>
+<final-test value='NOTHING'/>
+<final-intersect value='NOTHING'/>
+</F-Call>
+</Commands>
