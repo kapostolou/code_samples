@@ -18,24 +18,6 @@ using GELib.Geometry.Geometric_Queries;
 namespace GELib
 {
 
-    public struct Grid_Placement_Info
-    {
-        public Spatial.Grid_Coord coords;
-        public int row_width;
-        public int col_width;
-
-        public int own_group;
-        public int[] groups_it_hits;
-    }
-    public enum Col_Slot
-    {
-        Neutral=0,
-        Player,
-        Enemy,
-        NA
-
-    }
-   
 
     public class Intersection_Grid
     {
