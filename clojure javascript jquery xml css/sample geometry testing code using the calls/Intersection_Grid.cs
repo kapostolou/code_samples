@@ -92,14 +92,10 @@ namespace GELib
                             {
                                 if (!((list[u].row == placement.coords.row + i) && (list[u].col == placement.coords.col + j))) continue;
                                 var other = list[u].g;
-                                if (((other.Collision_Type == 1)  && (piece.Collision_Type == 6)) || ((other.Collision_Type == 6) && (piece.Collision_Type == 1)))
-                                {
-                                    var a=5;
-                                    Console.WriteLine(a);
-                                }
+                            
                                 current_pair_element_1 = piece;
                                 current_pair_element_2 = other;
-                                //
+                               
                                 if ((other.Coll.Ignore_In_Collisions_Cause_It_Got_Killed) || (other.Coll.Spawning_Or_Hit) || other.Coll == piece.Coll)
                                     continue;
 
@@ -203,7 +199,7 @@ namespace GELib
             var widths = Spatial.Grid_Func.Find_Width_In_Cells(grid_info.Cellsize, aabb.Position, aabb.widthx, aabb.widthy);
             ret.row_width = widths.row_width;
             ret.col_width = widths.col_width;
-            //if ((ret.width_x > 100) || (ret.width_y > 100)) throw new Exception();
+           
             ret.own_group = Base_Collision_Batches.Collision_Group_Slot[c.Collision_Type];
 
             ret.groups_it_hits = Base_Collision_Batches.what_groups_each_group_collides_with[ret.own_group];// Multiple_Dispatch.Check_With_Whom[c.Collision_Type];
